@@ -13,7 +13,11 @@
     "ajv-errors": "^3.0.0",
     "ajv-i18n": "^4.2.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "jss": "^10.9.0",
+    "jss-preset-default": "^10.9.0",
+    "monaco-editor": "^0.30.1",
+    "vue": "^3.0.0",
+    "vue-jss": "0.0.4"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",

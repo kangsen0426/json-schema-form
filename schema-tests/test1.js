@@ -17,11 +17,7 @@ const schema = {
         },
     },
     additionalProperties: false,
-    // errorMessage: {
-    //     properties: {
 
-    //     }
-    // }
 }
 
 const validate = ajv.compile(schema)
