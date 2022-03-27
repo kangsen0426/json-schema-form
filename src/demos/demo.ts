@@ -1,12 +1,14 @@
-import PasswordWidget from '@/components/PasswordWidget'
-
 export default {
   name: 'Demo',
-  // schema: {
-  //   type: 'string',
-  //   minLength: 10,
-  //   title: 'demo',
-  // },
+  schema: {
+    type: 'number',
+  },
+  uiSchema: {},
+  default: {},
+}
+
+/*
+,
   schema: {
     type: 'object',
     properties: {
@@ -50,4 +52,5 @@ export default {
       },
     },
   },
-}
+
+*/

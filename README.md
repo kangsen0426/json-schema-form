@@ -1,6 +1,11 @@
 # vue3-json-schema-form
 
+## 项目介绍
+
+项目由`Vue3` + `TS`+`ajv`+`monaco-editor`搭建，能够根据`JSON`数据自动生成`form`表单
+
 ## Project setup
+
 ```
 npm install
 ```
