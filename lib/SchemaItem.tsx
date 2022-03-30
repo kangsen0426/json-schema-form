@@ -1,22 +1,12 @@
 import { defineComponent, PropType } from 'vue'
-import NumberField from './fields/NumberField'
-import StringField from './fields/StringField'
-import { Schema, SchemaTypes } from './types'
+// import NumberField from './fields/NumberField'
+import NumberField from './fields/NumberField.vue'
+// import StringField from './fields/StringField'
+import StringField from './fields/StringField.vue'
+import { FiledPropsDefine, Schema, SchemaTypes } from './types'
 
 export default defineComponent({
-  props: {
-    schema: {
-      type: Object as PropType<Schema>,
-      required: true,
-    },
-    value: {
-      required: true,
-    },
-    onChange: {
-      type: Function as PropType<(v: any) => void>,
-      required: true,
-    },
-  },
+  props: FiledPropsDefine,
   name: 'SchemaItem',
   setup(props) {
     return () => {

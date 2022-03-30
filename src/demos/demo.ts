@@ -4,7 +4,7 @@ export default {
     type: 'number',
   },
   uiSchema: {},
-  default: {},
+  default: 2333,
 }
 
 /*
