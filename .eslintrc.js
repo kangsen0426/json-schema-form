@@ -1,3 +1,4 @@
+// '@typescript-eslint/no-explicit-any': 'off',
 module.exports = {
   root: true,
   env: {
@@ -12,12 +13,16 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 2020,
-    parser: '@typescript-eslint/parser',
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    // "no-var-requires": false
+    '@typescript-eslint/no-explicit-any': ['off'],
+    camelcase: 'off',
+    '@typescript-eslint/camelcase': 0,
+    '@typescript-eslint/no-use-before-define': 'off',
+    'no-prototype-builtins': 'off',
+    'vue/no-mutating-props': 'off',
   },
   overrides: [
     {

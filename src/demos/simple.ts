@@ -19,41 +19,41 @@ export default {
         type: 'string',
         minLength: 10,
       },
-      staticArray: {
-        title: 'staticArray',
-        type: 'array',
-        items: [{ type: 'string' }, { type: 'number' }],
-      },
-      singleTypeArray: {
-        title: 'singleTypeArray',
-        type: 'array',
-        items: {
-          type: 'string',
-        },
-      },
-      singleTypeArrayItemObject: {
-        title: 'singleTypeArrayItemObject',
-        type: 'array',
-        items: {
-          type: 'object',
-          properties: {
-            name: {
-              type: 'string',
-            },
-            age: {
-              type: 'number',
-            },
-          },
-        },
-      },
-      multiSelectArray: {
-        title: 'multiSelectArray',
-        type: 'array',
-        items: {
-          type: 'object',
-          enum: ['123', '456', '789'],
-        },
-      },
+      // staticArray: {
+      //   title: 'staticArray',
+      //   type: 'array',
+      //   items: [{ type: 'string' }, { type: 'number' }],
+      // },
+      // singleTypeArray: {
+      //   title: 'singleTypeArray',
+      //   type: 'array',
+      //   items: {
+      //     type: 'string',
+      //   },
+      // },
+      // singleTypeArrayItemObject: {
+      //   title: 'singleTypeArrayItemObject',
+      //   type: 'array',
+      //   items: {
+      //     type: 'object',
+      //     properties: {
+      //       name: {
+      //         type: 'string',
+      //       },
+      //       age: {
+      //         type: 'number',
+      //       },
+      //     },
+      //   },
+      // },
+      // multiSelectArray: {
+      //   title: 'multiSelectArray',
+      //   type: 'array',
+      //   items: {
+      //     type: 'object',
+      //     enum: ['123', '456', '789'],
+      //   },
+      // },
     },
   },
   uiSchema: {
@@ -76,13 +76,13 @@ export default {
     age: 75,
     bio: 'Roundhouse kicking asses since 1940',
     password: 'noneed',
-    singleTypeArray: ['qing'],
-    singleTypeArrayItemObject: [
-      {
-        name: 'qing',
-        age: 12,
-      },
-    ],
-    multiSelectArray: [],
+    // singleTypeArray: ['qing'],
+    // singleTypeArrayItemObject: [
+    //   {
+    //     name: 'qing',
+    //     age: 12,
+    //   },
+    // ],
+    // multiSelectArray: [],
   },
 }
