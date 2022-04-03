@@ -19,18 +19,18 @@ export default {
         type: 'string',
         minLength: 10,
       },
-      // staticArray: {
-      //   title: 'staticArray',
-      //   type: 'array',
-      //   items: [{ type: 'string' }, { type: 'number' }],
-      // },
-      // singleTypeArray: {
-      //   title: 'singleTypeArray',
-      //   type: 'array',
-      //   items: {
-      //     type: 'string',
-      //   },
-      // },
+      staticArray: {
+        title: 'staticArray',
+        type: 'array',
+        items: [{ type: 'string' }, { type: 'number' }],
+      },
+      singleTypeArray: {
+        title: 'singleTypeArray',
+        type: 'array',
+        items: {
+          type: 'string',
+        },
+      },
       // singleTypeArrayItemObject: {
       //   title: 'singleTypeArrayItemObject',
       //   type: 'array',

@@ -1,4 +1,4 @@
-import { PropType } from 'vue'
+import { PropType, DefineComponent } from 'vue'
 
 // 定义 schema 可以为的类型
 export enum SchemaTypes {
@@ -68,3 +68,5 @@ export const FiledPropsDefine = {
   //   required: true,
   // },
 } as const
+
+export type CommonFieldType = DefineComponent<typeof FiledPropsDefine>
